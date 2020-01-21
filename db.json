@@ -6,6 +6,63 @@
       "id": "5GCtvl5f",
       "email": "chinhphamvanvn@gmail.com",
       "password": "e10adc3949ba59abbe56e057f20f883e"
+    },
+    {
+      "name": "Tuan Tuan",
+      "phone": "0987654329",
+      "id": "I7L-VZmw"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "San pham 1",
+      "price": "30000"
+    },
+    {
+      "id": 2,
+      "name": "San pham 2",
+      "price": "20000"
+    },
+    {
+      "id": 3,
+      "name": "San pham 3",
+      "price": "40000"
+    },
+    {
+      "id": 4,
+      "name": "San pham 4",
+      "price": "56000"
+    },
+    {
+      "id": 5,
+      "name": "San pham 5",
+      "price": "90000"
+    },
+    {
+      "id": 6,
+      "name": "San pham 6",
+      "price": "80000"
+    },
+    {
+      "id": 7,
+      "name": "San pham 7",
+      "price": "80000"
+    },
+    {
+      "id": 8,
+      "name": "San pham 8",
+      "price": "59000"
+    },
+    {
+      "id": 9,
+      "name": "San pham 9",
+      "price": "66000"
+    },
+    {
+      "id": 10,
+      "name": "San pham 10",
+      "price": "85000"
     }
   ]
 }

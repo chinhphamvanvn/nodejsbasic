@@ -1,2 +1,23 @@
-h1 #{name}
-a(href="/users") User List
+html
+    head
+        link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css")
+        link(rel="stylesheet", href="styles/custom.css")
+    body
+        nav.navbar.navbar-expand-lg.navbar-light.bg-light
+            a.navbar-brand(href='/') BBC
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarSupportedContent.collapse.navbar-collapse
+                ul.navbar-nav.mr-auto
+                    li.nav-item.active
+                        a.nav-link(href='/auth/login') Login 
+                    li.nav-item
+                        a.nav-link(href='/users') Users
+                    li.nav-item
+                        a.nav-link(href='/products') Products
+            if(user)
+                p= user.name
+
+        .container.pt-5
+            block content
+                p Dashboard page
